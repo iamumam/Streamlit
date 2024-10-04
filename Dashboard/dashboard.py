@@ -4,8 +4,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load Data
-df_hour = pd.read_csv('all_data.csv')
-df_day = pd.read_csv('all_data.csv')
+df_hour = pd.read_csv('data/hour.csv')
+df_day = pd.read_csv('data/day.csv')
 
 # Set the Streamlit page layout
 st.set_page_config(layout="wide", page_title="Dashboard Analisis Penggunaan Sepeda")
